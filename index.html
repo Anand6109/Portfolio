@@ -3,20 +3,21 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Anand Shelke - Full Stack Software Engineer portfolio. ~4.8 years of experience building scalable backend microservices, RESTful APIs, and cloud applications.">
 
         <link rel="stylesheet" href="assets/css/styles.css">
 
         <!-- =====BOX ICONS===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-        <title>Portfolio website complete</title>
+        <title>Anand Shelke | Software Developer</title>
     </head>
     <body>
         <!--===== HEADER =====-->
         <header class="l-header">
             <nav class="nav bd-grid">
                 <div>
-                    <a href="#" class="nav__logo">Marlon</a>
+                    <a href="#home" class="nav__logo">Anand</a>
                 </div>
 
                 <div class="nav__menu" id="nav-menu">
@@ -24,7 +25,8 @@
                         <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
                         <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
                         <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
                         <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
                     </ul>
                 </div>
@@ -39,15 +41,21 @@
             <!--===== HOME =====-->
             <section class="home bd-grid" id="home">
                 <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Marlon</span><br> Web Designer</h1>
+                    <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Anand Shelke</span></h1>
+                    <h2 class="home__subtitle">Software Developer</h2>
+                    <p class="home__desc">Results-driven Full Stack Software Engineer with <strong>~4.8 years</strong> of enterprise experience at <strong>Cognizant</strong> delivering scalable backend services, RESTful APIs, and modernization solutions for Fortune 10 clients (Walmart).</p>
 
-                    <a href="#" class="button">Contact</a>
+                    <div class="home__buttons">
+                        <a href="#contact" class="button">Contact Me</a>
+                        <a href="#work" class="button button--outline">View Projects</a>
+                    </div>
                 </div>
 
                 <div class="home__social">
-                    <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a>
-                    <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                    <a href="https://www.linkedin.com/in/anand-shelke-15a985331/" target="_blank" rel="noopener noreferrer" class="home__social-icon" title="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="home__social-icon" title="GitHub"><i class='bx bxl-github'></i></a>
+                    <a href="mailto:anandshelke011@gmail.com" class="home__social-icon" title="Email Anand"><i class='bx bx-envelope'></i></a>
+                    <a href="tel:+919867948803" class="home__social-icon" title="Call Anand"><i class='bx bx-phone'></i></a>
                 </div>
 
                 <div class="home__img">
@@ -57,144 +65,344 @@
                         </mask>
                         <g mask="url(#mask0)">
                             <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                            <image class="home__blob-img" x="50" y="60" href="assets/img/perfil.png"/>
+                            <image class="home__blob-img" x="45" y="25" width="390" height="418" href="assets/img/Anand_Photo-Photoroom.png"/>
                         </g>
                     </svg>
                 </div>
             </section>
 
             <!--===== ABOUT =====-->
-            <section class="about section " id="about">
-                <h2 class="section-title">About</h2>
+            <section class="about section" id="about">
+                <h2 class="section-title">About Me</h2>
 
                 <div class="about__container bd-grid">
                     <div class="about__img">
-                        <img src="assets/img/about.jpg" alt="">
+                        <img src="assets/img/Anand_Photo.jpg" alt="Anand Shelke">
                     </div>
                     
                     <div>
-                        <h2 class="about__subtitle">I'am Marlon</h2>
-                        <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.</p>           
+                        <h2 class="about__subtitle">Software Developer based in Mumbai</h2>
+                        <p class="about__text">
+                            Results-driven Full Stack Software Engineer with ~4.8 years of enterprise experience at Cognizant, delivering scalable backend services, RESTful APIs, and modernization solutions for Fortune 10 clients (e.g., Walmart). Proficient in TypeScript, Node.js, Express.js, React.js, and relational/NoSQL databases (PostgreSQL, MongoDB, DB2). Demonstrated track record of deploying commercial multi-tenant business applications (ClearBill) with real active users and architecting real-time WebSocket applications. Recognized for reducing batch downtime, optimizing data flow efficiency, and implementing secure role-based access control. Available immediately for software engineering roles.
+                        </p>
+
+                        <div class="about__highlights">
+                            <div class="about__highlight-box">
+                                <span class="about__highlight-number">~4.8 Yrs</span>
+                                <span class="about__highlight-label">Enterprise Exp</span>
+                            </div>
+                            <div class="about__highlight-box">
+                                <span class="about__highlight-number">Fortune 10</span>
+                                <span class="about__highlight-label">Client Impact</span>
+                            </div>
+                            <div class="about__highlight-box">
+                                <span class="about__highlight-number">99.9%</span>
+                                <span class="about__highlight-label">Uptime SLA</span>
+                            </div>
+                            <div class="about__highlight-box">
+                                <span class="about__highlight-number">Immediate</span>
+                                <span class="about__highlight-label">Availability</span>
+                            </div>
+                        </div>
+
+                        <div class="about__details">
+                            <div class="about__detail-item">
+                                <i class='bx bx-graduation'></i>
+                                <span><strong>Education:</strong> B.Sc. IT | D.G. Ruparel College | Mumbai University (CGPA: 7.76, 2021)</span>
+                            </div>
+                            <div class="about__detail-item">
+                                <i class='bx bx-map-pin'></i>
+                                <span><strong>Location:</strong> Worli, Mumbai - 400018, India</span>
+                            </div>
+                            <div class="about__detail-item">
+                                <i class='bx bx-envelope'></i>
+                                <span><strong>Email:</strong> anandshelke011@gmail.com</span>
+                            </div>
+                            <div class="about__detail-item">
+                                <i class='bx bx-phone'></i>
+                                <span><strong>Phone:</strong> +91 9867948803</span>
+                            </div>
+                        </div>
                     </div>                                   
                 </div>
             </section>
 
             <!--===== SKILLS =====-->
             <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
+                <h2 class="section-title">Technical Skills</h2>
 
-                <div class="skills__container bd-grid">          
-                    <div>
-                        <h2 class="skills__subtitle">Profesional Skills</h2>
-                        <p class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-html5 skills__icon'></i>
-                                <span class="skills__name">HTML5</span>
-                            </div>
-                            <div class="skills__bar skills__html">
+                <div class="bd-grid">          
+                    <p class="skills__text" style="text-align: center; max-width: 700px; margin: 0 auto var(--mb-4);">
+                        Comprehensive technical expertise spanning robust backend microservices, modern reactive frontends, optimized relational & NoSQL databases, and automated cloud CI/CD infrastructure.
+                    </p>
 
+                    <div class="skills__grid">
+                        <!-- Backend Card -->
+                        <div class="skill__card">
+                            <div class="skill__header">
+                                <i class='bx bx-server skill__header-icon'></i>
+                                <h3 class="skill__card-title">Backend Development</h3>
                             </div>
-                            <div>
-                                <span class="skills__percentage">95%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-css3 skills__icon'></i>
-                                <span class="skills__name">CSS3</span>
-                            </div>
-                            <div class="skills__bar skills__css">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">85%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-javascript skills__icon' ></i>
-                                <span class="skills__name">JAVASCRIPT</span>
-                            </div>
-                            <div class="skills__bar skills__js">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">65%</span>
+                            <div class="skill__badges">
+                                <span class="skill__badge">Node.js</span>
+                                <span class="skill__badge">Express</span>
+                                <span class="skill__badge">RESTful APIs</span>
+                                <span class="skill__badge">JWT</span>
+                                <span class="skill__badge">OAuth2</span>
+                                <span class="skill__badge">RBAC</span>
+                                <span class="skill__badge">WebSockets (Socket.io)</span>
+                                <span class="skill__badge">GraphQL</span>
+                                <span class="skill__badge">Zod Validation</span>
                             </div>
                         </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxs-paint skills__icon'></i>
-                                <span class="skills__name">UX/UI</span>
+
+                        <!-- Frontend Card -->
+                        <div class="skill__card">
+                            <div class="skill__header">
+                                <i class='bx bx-code-alt skill__header-icon'></i>
+                                <h3 class="skill__card-title">Frontend Development</h3>
                             </div>
-                            <div class="skills__bar skills__ux">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">85%</span>
+                            <div class="skill__badges">
+                                <span class="skill__badge">React JS</span>
+                                <span class="skill__badge">TypeScript</span>
+                                <span class="skill__badge">JavaScript (ES6+)</span>
+                                <span class="skill__badge">Redux Toolkit</span>
+                                <span class="skill__badge">TanStack Query</span>
+                                <span class="skill__badge">React Router</span>
+                                <span class="skill__badge">Tailwind CSS</span>
                             </div>
                         </div>
-                    </div>
-                    
-                    <div>              
-                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
+
+                        <!-- Database Card -->
+                        <div class="skill__card">
+                            <div class="skill__header">
+                                <i class='bx bx-data skill__header-icon'></i>
+                                <h3 class="skill__card-title">Databases & ORM</h3>
+                            </div>
+                            <div class="skill__badges">
+                                <span class="skill__badge">PostgreSQL</span>
+                                <span class="skill__badge">MySQL</span>
+                                <span class="skill__badge">MongoDB</span>
+                                <span class="skill__badge">Redis</span>
+                                <span class="skill__badge">Prisma ORM</span>
+                                <span class="skill__badge">IBM DB2</span>
+                            </div>
+                        </div>
+
+                        <!-- Cloud & DevOps Card -->
+                        <div class="skill__card">
+                            <div class="skill__header">
+                                <i class='bx bx-cloud skill__header-icon'></i>
+                                <h3 class="skill__card-title">Cloud & DevOps</h3>
+                            </div>
+                            <div class="skill__badges">
+                                <span class="skill__badge">Docker</span>
+                                <span class="skill__badge">Git</span>
+                                <span class="skill__badge">GitHub</span>
+                                <span class="skill__badge">GitLab CI/CD</span>
+                                <span class="skill__badge">AWS (EC2, S3, RDS)</span>
+                                <span class="skill__badge">Render</span>
+                                <span class="skill__badge">Vercel</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
 
-            <!--===== WORK =====-->
-            <section class="work section" id="work">
-                <h2 class="section-title">Work</h2>
+            <!--===== EXPERIENCE =====-->
+            <section class="experience section" id="experience">
+                <h2 class="section-title">Professional Experience</h2>
 
-                <div class="work__container bd-grid">
-                    <a href="" class="work__img">
-                        <img src="assets/img/work1.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work2.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work3.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work4.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work5.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work6.jpg" alt="">
-                    </a>
+                <div class="bd-grid">
+                    <div class="experience__card">
+                        <div class="experience__top">
+                            <div>
+                                <h3 class="experience__company">Cognizant Technology Solutions</h3>
+                                <p class="experience__roles">Trainee &rarr; Jr. Software Developer &rarr; Software Developer</p>
+                            </div>
+                            <span class="experience__period"><i class='bx bx-calendar'></i> Feb 2022 &ndash; Oct 2026</span>
+                        </div>
+
+                        <div class="experience__client">
+                            <i class='bx bx-briefcase-alt-2'></i> Client: <strong>Walmart &ndash; Food Goods Processing System</strong>
+                        </div>
+
+                        <ul class="experience__list">
+                            <li class="experience__item">
+                                Engineered and maintained microservices and backend data pipelines in Node.js for Walmart's Food Goods Processing System, accelerating order processing efficiency by ~25%.
+                            </li>
+                            <li class="experience__item">
+                                Monitored mission-critical batch production jobs, diagnosing and resolving high-severity live abends (abnormal ends) to sustain a 99.9% uptime SLA across peak retail operations.
+                            </li>
+                            <li class="experience__item">
+                                Formulated automated issue resolution playbooks, reducing Mean Time to Resolution (MTTR) for system errors by over 30%.
+                            </li>
+                            <li class="experience__item">
+                                Collaborated closely with cross-functional distributed teams, QA engineers, and client stakeholders in an Agile/Scrum delivery environment.
+                            </li>
+                            <li class="experience__item">
+                                Modernized legacy mainframe data workflows by integrating COBOL, JCL, VSAM, and IBM DB2 systems with modern RESTful interface layers.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== WORK / PROJECTS =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Featured Projects</h2>
+
+                <div class="bd-grid">
+                    <div class="projects__grid">
+                        <!-- Project 1: ClearBill -->
+                        <div class="project__card">
+                            <div>
+                                <span class="project__badge-type"><i class='bx bx-check-shield'></i> Commercial Production Platform</span>
+                                <h3 class="project__title">ClearBill: GST Billing &amp; Inventory Management Platform</h3>
+                                <p class="project__subtitle">Cloud-native multi-tenant business &amp; financial operations system</p>
+
+                                <ul class="project__list">
+                                    <li class="project__item">Architected an end-to-end cloud billing and inventory platform currently utilized by active commercial businesses to manage GST invoices, purchase orders, sales, and credit returns.</li>
+                                    <li class="project__item">Automated real-time stock balance recalculation across inventory transactions, eliminating manual inventory reconciliation discrepancies.</li>
+                                    <li class="project__item">Designed a multi-tenant role-based access control (RBAC) schema with strict row-level tenant data isolation, ensuring compliance and security for sensitive financial records.</li>
+                                    <li class="project__item">Integrated automated payment tracking, outstanding ledger reconciliations, and instant GST tax summary report generators.</li>
+                                </ul>
+                            </div>
+
+                            <div class="project__tags">
+                                <span class="project__tag">Node.js</span>
+                                <span class="project__tag">React.js</span>
+                                <span class="project__tag">PostgreSQL</span>
+                                <span class="project__tag">Prisma ORM</span>
+                                <span class="project__tag">Redis</span>
+                                <span class="project__tag">RBAC</span>
+                                <span class="project__tag">Docker</span>
+                            </div>
+                        </div>
+
+                        <!-- Project 2: Real-time Chat Application -->
+                        <div class="project__card">
+                            <div>
+                                <span class="project__badge-type"><i class='bx bx-message-rounded-dots'></i> Full-Stack Real-Time App</span>
+                                <h3 class="project__title">Real-time Chat Application</h3>
+                                <p class="project__subtitle">High-concurrency messaging with sub-100ms delivery</p>
+
+                                <ul class="project__list">
+                                    <li class="project__item">Engineered a full-duplex real-time messaging platform supporting private conversations, user presence tracking, and sub-100ms message delivery using Socket.io and WebSockets.</li>
+                                    <li class="project__item">Implemented secure stateless authentication using JWT and bcrypt password hashing with HTTP-only cookie session protection.</li>
+                                    <li class="project__item">Integrated multimedia handling pipelines with Cloudinary, enabling asynchronous image and document file transfers within chats.</li>
+                                </ul>
+                            </div>
+
+                            <div class="project__tags">
+                                <span class="project__tag">Socket.io</span>
+                                <span class="project__tag">WebSockets</span>
+                                <span class="project__tag">Node.js</span>
+                                <span class="project__tag">Express.js</span>
+                                <span class="project__tag">React.js</span>
+                                <span class="project__tag">JWT</span>
+                                <span class="project__tag">Cloudinary</span>
+                                <span class="project__tag">MongoDB</span>
+                            </div>
+                        </div>
+
+                        <!-- Project 3: Walmart System Modernization -->
+                        <div class="project__card">
+                            <div>
+                                <span class="project__badge-type"><i class='bx bx-buildings'></i> Enterprise Scaled Solution</span>
+                                <h3 class="project__title">Walmart Food Goods Processing Modernization</h3>
+                                <p class="project__subtitle">Microservices architecture for Fortune 10 retail operations</p>
+
+                                <ul class="project__list">
+                                    <li class="project__item">Modernized batch workflows and legacy data layers into high-throughput Node.js RESTful interface layers.</li>
+                                    <li class="project__item">Achieved 25% order processing efficiency acceleration and 30% reduction in MTTR through automated resolution playbooks.</li>
+                                    <li class="project__item">Maintained a strict 99.9% uptime SLA across mission-critical retail peak seasons.</li>
+                                </ul>
+                            </div>
+
+                            <div class="project__tags">
+                                <span class="project__tag">Node.js</span>
+                                <span class="project__tag">Microservices</span>
+                                <span class="project__tag">RESTful APIs</span>
+                                <span class="project__tag">IBM DB2</span>
+                                <span class="project__tag">High Availability (99.9%)</span>
+                                <span class="project__tag">Agile/Scrum</span>
+                            </div>
+                        </div>
+
+                        <!-- Project 4: Academic & Foundational Excellence -->
+                        <div class="project__card">
+                            <div>
+                                <span class="project__badge-type"><i class='bx bx-award'></i> Education &amp; Foundation</span>
+                                <h3 class="project__title">B.Sc. in Information Technology</h3>
+                                <p class="project__subtitle">D.G. Ruparel College | Mumbai University</p>
+
+                                <ul class="project__list">
+                                    <li class="project__item">Graduated with a strong academic CGPA of <strong>7.76</strong> (Batch of 2021).</li>
+                                    <li class="project__item">Rigorous foundation in computer science principles, data structures, algorithms, relational database architectures, and systems engineering.</li>
+                                </ul>
+                            </div>
+
+                            <div class="project__tags">
+                                <span class="project__tag">B.Sc. IT</span>
+                                <span class="project__tag">CGPA: 7.76</span>
+                                <span class="project__tag">Mumbai University</span>
+                                <span class="project__tag">Computer Science</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
 
             <!--===== CONTACT =====-->
             <section class="contact section" id="contact">
-                <h2 class="section-title">Contact</h2>
+                <h2 class="section-title">Get In Touch</h2>
 
-                <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Enviar" class="contact__button button">
-                    </form>
+                <div class="bd-grid">
+                    <div class="contact__info-cards">
+                        <a href="tel:+919867948803" class="contact__info-card">
+                            <i class='bx bx-phone contact__info-icon'></i>
+                            <h4 class="contact__info-title">Phone</h4>
+                            <span class="contact__info-link">+91 9867948803</span>
+                        </a>
+
+                        <a href="mailto:anandshelke011@gmail.com" class="contact__info-card">
+                            <i class='bx bx-envelope contact__info-icon'></i>
+                            <h4 class="contact__info-title">Email</h4>
+                            <span class="contact__info-link">anandshelke011@gmail.com</span>
+                        </a>
+
+                        <div class="contact__info-card">
+                            <i class='bx bx-map-pin contact__info-icon'></i>
+                            <h4 class="contact__info-title">Location</h4>
+                            <span class="contact__info-link">Worli, Mumbai - 400018</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__container bd-grid">
+                        <form id="contact-form" class="contact__form">
+                            <input type="text" id="contact-name" placeholder="Your Name" class="contact__input" required>
+                            <input type="email" id="contact-email" placeholder="Your Email" class="contact__input" required>
+                            <textarea id="contact-message" cols="0" rows="6" placeholder="Your Message" class="contact__input" required></textarea>
+                            <button type="submit" class="contact__button button">Send Message</button>
+                        </form>
+                    </div>
                 </div>
             </section>
         </main>
 
         <!--===== FOOTER =====-->
         <footer class="footer">
-            <p class="footer__title">Marlon</p>
+            <p class="footer__title">Anand Shelke</p>
+            <p style="margin-bottom: 1.5rem; color: #a4b5c6;">Full Stack Software Engineer &bull; Worli, Mumbai</p>
             <div class="footer__social">
-                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
-                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
-                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="footer__icon" title="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="footer__icon" title="GitHub"><i class='bx bxl-github'></i></a>
+                <a href="mailto:anandshelke011@gmail.com" class="footer__icon" title="Email"><i class='bx bx-envelope'></i></a>
+                <a href="tel:+919867948803" class="footer__icon" title="Call"><i class='bx bx-phone'></i></a>
             </div>
-            <p class="footer__copy">&#169; Bedimcode. All rigths reserved</p>
+            <p class="footer__copy">&#169; Anand Shelke. Available immediately for software engineering roles.</p>
         </footer>
-
 
         <!--===== SCROLL REVEAL =====-->
         <script src="https://unpkg.com/scrollreveal"></script>
